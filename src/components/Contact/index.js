@@ -81,7 +81,7 @@ export default function Contact() {
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                   />
                 </Col>
-                <Col>
+                <Col size={12} className="px-1">
                   <textarea
                     rows="6"
                     value={formDetails.message}
